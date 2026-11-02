@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:create-Templates/Meeting.md": [
+    { "modifiers": ["Mod", "Shift"], "key": "M" }
+  ],
+  "templater-obsidian:create-Templates/Project.md": [
+    { "modifiers": ["Mod", "Shift"], "key": "J" }
+  ],
+  "daily-notes": [
+    { "modifiers": ["Mod", "Shift"], "key": "D" }
+  ]
+}

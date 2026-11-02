@@ -1,0 +1,8 @@
+{
+  "globalFilter": "",
+  "removeGlobalFilter": false,
+  "taskFormat": "tasksPluginEmoji",
+  "setCreatedDate": false,
+  "setDoneDate": true,
+  "setCancelledDate": true
+}

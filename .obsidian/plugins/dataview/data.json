@@ -1,0 +1,7 @@
+{
+  "enableInlineDataview": true,
+  "enableDataviewJs": false,
+  "enableInlineDataviewJs": false,
+  "inlineQueryPrefix": "=",
+  "taskCompletionTracking": false
+}
