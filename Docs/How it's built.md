@@ -37,5 +37,6 @@ Editing a template only affects notes created afterwards.
 
 ## Conventions used in queries
 - Every Tasks query excludes `Templates/`.
-- "All open todos" and project todos skip empty checkboxes (`description regex matches /\S/`).
+- "Today" = not done and scheduled before tomorrow. "Backlog" = not done and no scheduled date or scheduled after today, so a todo is never in both.
+- "Backlog" and project todos skip empty checkboxes (`description regex matches /\S/`).
 - Project todos: `(path includes {{query.file.path}}) OR (description includes {{query.file.filenameWithoutExtension}})`.

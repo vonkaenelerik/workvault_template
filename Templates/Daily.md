@@ -5,6 +5,14 @@
 ## Notes
 - <% tp.file.cursor() %>
 
+## Today
+```tasks
+not done
+scheduled before tomorrow
+path does not include Templates/
+sort by scheduled
+```
+
 ## Due / overdue
 ```tasks
 not done
@@ -20,9 +28,10 @@ tags include #waiting
 path does not include Templates/
 ```
 
-## All open todos
+## Backlog
 ```tasks
 not done
+(no scheduled date) OR (scheduled after today)
 path does not include Templates/
 # skip empty checkboxes
 description regex matches /\S/

@@ -18,10 +18,11 @@
 ## Inside a daily note
 1. **← / →**: previous and next calendar day
 2. **Notes**: free writing
-3. **Due / overdue**: open todos due today or earlier
-4. **Waiting on others**: open todos tagged `#waiting`
-5. **All open todos**: every open todo in the vault, grouped by folder and note
-6. **Done today**: todos completed on this note's date
+3. **Today**: open todos you planned for today (scheduled `⏳` today or earlier)
+4. **Due / overdue**: open todos due today or earlier
+5. **Waiting on others**: open todos tagged `#waiting`
+6. **Backlog**: every other open todo, grouped by folder and note
+7. **Done today**: todos completed on this note's date
 
 ## Inside a meeting note
 - **Properties** at the top: `date`, `attendees`, `project`, `tags`

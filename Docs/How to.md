@@ -25,12 +25,22 @@
 |---|---|
 | `- [ ] send slides` | todo |
 | `- [ ] send slides 📅 2026-11-05` | todo due Nov 5 |
+| `- [ ] send slides ⏳ 2026-11-09` | planned for Nov 9: shows under "Today" that day |
 | `- [ ] contract back #waiting [[Jane Doe]]` | shows under "Waiting on others" |
 | `- [ ] send quote [[Vendor migration]]` | also shows on the project note |
 
 **Add a due date with a date picker:** put the cursor on the todo, Cmd+P → **Tasks: Create or edit task**, pick a due date, save.
 **Complete a todo:** click its checkbox (in the note or in any list), or put the cursor on it and press Cmd+L. A `✅ date` is added.
-**See all open todos:** today's daily note, section "All open todos".
+**See all open todos:** today's daily note. "Today" has what you planned for today; "Backlog" has everything else.
+
+**Plan a todo for today (move it from Backlog to Today)**
+1. In the Backlog list, hover the todo and click the pencil (edit) icon.
+2. In **Scheduled**, type `today` and click **Apply**.
+3. The todo moves to "Today". This adds `⏳ <date>` to the todo in its original note.
+
+In the editor you can type `⏳` yourself, or start typing `sched` after the todo text and pick a date from the suggestions.
+
+**Unfinished "Today" items** stay in "Today" on the following days, showing the date you planned them for. To push one out, edit it and set Scheduled to a later date (it goes back to Backlog until then), or clear Scheduled to drop it back into Backlog.
 **Jump to where a todo lives:** in any todo list, click the note name shown after the todo.
 
 ## Projects

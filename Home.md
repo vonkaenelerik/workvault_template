@@ -17,6 +17,7 @@ Full guide: [[Docs/README|Docs]].
 ## Todos
 - `- [ ] thing` is a todo
 - `- [ ] thing 📅 2026-11-05` has a due date
+- `- [ ] thing ⏳ 2026-11-09` is planned for that day: it moves from Backlog to Today
 - `- [ ] thing #waiting [[Jane Doe]]` means you're waiting on someone
 
 ## Tips
@@ -32,5 +33,5 @@ Full guide: [[Docs/README|Docs]].
 ## 2-minute smoke test
 - Cmd+Shift+D → links and todo sections render (no raw `<% %>`).
 - Cmd+Shift+M → type "Test" → note appears as `Meetings/<today> Test`.
-- Add `- [ ] try it 📅 <today>` to the meeting → it shows under "Due / overdue" and "All open todos". Tick it → it moves to "Done today".
+- Add `- [ ] try it 📅 <today>` to the meeting → it shows under "Due / overdue" and "Backlog". Tick it → it moves to "Done today".
 - Delete the test meeting when done.
